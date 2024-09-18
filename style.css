@@ -129,6 +129,7 @@ h3 {
     nav {
         flex-direction: column;
         align-items: center;
+        padding-top: 10px;
     }
 
     nav ul {
@@ -138,15 +139,23 @@ h3 {
 
     .main-content {
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         margin-left: 0;
         margin-top: 1rem;
+        align-items: center;
+        text-align: center;
     }
 
     .image-quauntum {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-bottom: 1rem;
+    }
+
+    .image1, .image {
+        width: 100%;
+        max-width: 250px; /* Adjust max-width if needed */
     }
 
     .main-text {
@@ -162,8 +171,10 @@ h3 {
 
     .right, .right2, .right3, .right4 {
         margin: 0.5rem 0;
-        width: 100%;
+        width: 90%;
         padding: 1rem;
+        position: relative;
+        bottom: auto; /* Reset bottom positioning */
     }
 
     .inside img {
